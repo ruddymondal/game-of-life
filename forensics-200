@@ -1,0 +1,9 @@
+Link to Problem: https://jacobedelman.gitbooks.io/hsctf-3-practice-problems/content/red_square-problem.html
+
+How we solve problem:
+
+1) notice there is blob on screen
+2) try to open blob
+3) realize it's invalid jpg
+4) open console, save jpg
+5) on terminal, do strings "test.jpg | grep flag" to get flag
